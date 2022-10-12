@@ -27,4 +27,7 @@ public interface SongService {
      * @return 노래
      */
     public Song read(Long idx);
+
+    public void update(Song song);
+    public  void delete(Long idx);
 }

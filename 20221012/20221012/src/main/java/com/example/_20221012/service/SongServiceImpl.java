@@ -22,7 +22,8 @@ public class SongServiceImpl implements SongService {
     @Override
     public Song addSong(Song song) {
         SongEntity songEntity = new SongEntity(
-                song.getTitle()
+                song.getIdx()
+                , song.getTitle()
                 , song.getSinger()
                 , song.getComposer()
                 , song.getYear()
@@ -71,5 +72,23 @@ public class SongServiceImpl implements SongService {
         } else {
             throw new IllegalArgumentException("잘못된 IDX 입니다.");
         }
+    }
+
+    @Override
+    public void update(Song song) {
+        SongEntity entity = new SongEntity(
+                song.getIdx()
+                , song.getTitle()
+                , song.getSinger()
+                , song.getComposer()
+                , song.getYear()
+        );
+        System.out.println(entity.getIdx());
+        songRepository.save(entity);
+    }
+
+    @Override
+    public void delete(Long idx) {
+        songRepository.deleteById(idx);
     }
 }

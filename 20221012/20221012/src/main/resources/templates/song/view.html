@@ -6,11 +6,22 @@
 
   <link href="/css/song.css?1" rel="stylesheet">
 
+  <script>
+
+    const deleteSong = function() {
+      if (confirm("정말 삭제하시겠습니까?")) {
+        const idx = document.querySelector("[name='idx']").value;
+        location.href = "../delete.do/" + idx;
+      }
+    };
+
+  </script>
 </head>
 <body>
 <h1>노래 정보</h1>
 
 <div class="input">
+  <input type="hidden" name="idx" th:value="${song.idx}">
   <div>
     <label>제목</label>
     <span th:text="${song.title}"></span>
@@ -34,7 +45,8 @@
   <div>
     <label></label>
     <a href="../list"><button>목록</button></a>
-    <a href="#"><button>수정</button></a>
+    <a th:href="@{/song/update/{id} (id = ${song.idx})}"><button>수정</button></a>
+    <a href="javascript:deleteSong();"><button>삭제</button></a>
   </div>
 
 </div>
