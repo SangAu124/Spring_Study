@@ -1,6 +1,7 @@
 package com.example._20221012.domain;
 
 public class Song {
+    private Long idx;
     private String title;
     private String singer;
     private String composer;
@@ -43,5 +44,13 @@ public class Song {
 
     public void setYear(int year) {
         this.year = year;
+    }
+
+    public Long getIdx() {
+        return idx;
+    }
+
+    public void setIdx(Long idx) {
+        this.idx = idx;
     }
 }

@@ -11,6 +11,7 @@ public class SongEntity {
     private String title;
     private String singer;
     private String composer;
+    @Column(name = "published_year")
     private int year;
 
     public SongEntity(String title, String singer, String composer, int year) {

@@ -17,3 +17,13 @@ body {
     text-align: right;
     margin-right: 3rem;
 }
+
+.list {
+    border-collapse: collapse;
+}
+
+.list td, th {
+    border: 1px solid #CCC;
+    padding: 5px;
+    min-width: 100px;
+}

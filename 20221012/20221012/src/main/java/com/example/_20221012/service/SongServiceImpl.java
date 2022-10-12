@@ -6,6 +6,9 @@ import com.example._20221012.repository.SongRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.util.ArrayList;
+import java.util.List;
+
 @Service(value = "songService")
 public class SongServiceImpl implements SongService {
     private SongRepository songRepository;
@@ -17,7 +20,6 @@ public class SongServiceImpl implements SongService {
 
     @Override
     public Song addSong(Song song) {
-        // TODO
         SongEntity songEntity = new SongEntity(
                 song.getTitle()
                 , song.getSinger()
@@ -27,5 +29,25 @@ public class SongServiceImpl implements SongService {
         songRepository.save(songEntity);
 
         return song;
+    }
+
+    @Override
+    public List<Song> getList() {
+
+        List<SongEntity> list = songRepository.findAll();
+
+        List<Song> result = new ArrayList<>();
+        for(SongEntity item: list) {
+            Song song = new Song(
+                    item.getTitle()
+                    , item.getSinger()
+                    , item.getComposer()
+                    , item.getYear()
+            );
+            song.setIdx(item.getIdx());
+            result.add(song);
+        }
+
+        return result;
     }
 }
