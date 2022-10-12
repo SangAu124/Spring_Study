@@ -19,4 +19,12 @@ public interface SongService {
      * @return 등록된 노래 목록
      */
     public List<Song> getList();
+
+    /**
+     * 주어진 idx를 가진 노래를 가져온다.
+     *
+     * @param idx 노래 idx
+     * @return 노래
+     */
+    public Song read(Long idx);
 }

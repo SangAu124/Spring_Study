@@ -8,6 +8,7 @@ import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Optional;
 
 @Service(value = "songService")
 public class SongServiceImpl implements SongService {
@@ -49,5 +50,26 @@ public class SongServiceImpl implements SongService {
         }
 
         return result;
+    }
+
+    @Override
+    public Song read(Long idx) {
+        Optional<SongEntity> optional = songRepository.findById(idx);
+
+        if(optional.isPresent()) {
+            SongEntity entity = optional.get();
+            Song song = new Song(
+                    entity.getTitle()
+                    , entity.getSinger()
+                    , entity.getComposer()
+                    , entity.getYear()
+            );
+
+            song.setIdx(entity.getIdx());
+
+            return song;
+        } else {
+            throw new IllegalArgumentException("잘못된 IDX 입니다.");
+        }
     }
 }

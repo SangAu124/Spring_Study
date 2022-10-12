@@ -52,11 +52,11 @@ public class SongController {
 
     @GetMapping("/view/{idx}")
     public ModelAndView view(
-            @PathVariable("idx") Long idx
-    ) {
-        ModelAndView mv = new ModelAndView("view");
+            @PathVariable("idx") Long idx) {
+        ModelAndView mv = new ModelAndView("song/view");
 
-        
+        Song song = songService.read(idx);
+        mv.addObject("song", song);
 
         return mv;
     }
