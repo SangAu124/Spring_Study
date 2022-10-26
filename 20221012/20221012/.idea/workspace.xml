@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="cf68425c-8c69-49e6-aab4-e615ef90c3c8" name="변경" comment="">
+      <change beforePath="$PROJECT_DIR$/../../20220914/studySpring/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../20220914/studySpring/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../20220914/studySpring/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../20220914/studySpring/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../20220914/studySpring/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../20220914/studySpring/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../20220914/studySpring/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../20220914/studySpring/src/main/java/Calculator/Adder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../20220914/studySpring/src/main/java/Calculator/Application3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../20220914/studySpring/src/main/java/Calculator/Application4.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../20220914/studySpring/src/main/java/Calculator/Calculator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../20220914/studySpring/src/main/java/Calculator/Configuration3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../20220914/studySpring/src/main/java/Calculator/ConfigurationCalculator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../20220914/studySpring/src/main/java/Calculator/Machine.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../20220914/studySpring/src/main/java/Calculator/Subtractor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../20220914/studySpring/src/main/java/Calculator/application3-context.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../20220914/studySpring/src/main/java/Main/ApplicationMain.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../20220914/studySpring/src/main/java/Main/ConfigurationMain.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../20220914/studySpring/src/main/java/com/study/spring/Application1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../20220914/studySpring/src/main/java/com/study/spring/Application2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../20220914/studySpring/src/main/java/com/study/spring/Configuration1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../20220914/studySpring/src/main/java/com/study/spring/Hello.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../20220914/studySpring/src/main/java/com/study/spring/Person.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../20220914/studySpring/src/main/java/com/study/spring/application1-context.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../20220914/studySpring/src/main/java/scan/Hello.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../20220914/studySpring/src/main/java/scan/Person.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../20220914/studySpring/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../20220914/studySpring/src/test/java/com/study/spring/studyspring/StudySpringApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../20220921/study.spring/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../20220921/web/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../20220921/web/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../20220921/web/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../20220921/web/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../20220921/web/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../20220921/web/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../20220921/web/src/main/java/study/spring/web/Domain/Person.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../20220921/web/src/main/java/study/spring/web/WebApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../20220921/web/src/main/java/study/spring/web/controller/ApiController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../20220921/web/src/main/java/study/spring/web/controller/HomeController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../20220921/web/src/main/java/study/spring/web/controller/SubController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../20220921/web/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../20220921/web/src/main/resources/templates/clock.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../20220921/web/src/main/resources/templates/hello.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../20220921/web/src/main/resources/templates/hi.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../20220921/web/src/main/resources/templates/sub/page-1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../20220921/web/src/test/java/study/spring/web/WebApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/_20221012/Application.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/_20221012/controller/SongController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/_20221012/domain/Song.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/_20221012/entity/SongEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/_20221012/repository/SongRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/_20221012/service/SongService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/_20221012/service/SongServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/song.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/song/add.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/song/list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/song/update.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/song/view.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/_20221012/ApplicationTests.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2G0xxV54SMbyT3uKo9PSPYbIGeJ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/gimsang-eun/Documents/github/Spring_Study/20221012/20221012/src/main/resources/templates/song&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.Mappings&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;5fe96028bb69428b90010616141d0e2c&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/templates/song" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="_20221012.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example._20221012.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="애플리케이션 수준" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="디폴트 작업">
+      <changelist id="cf68425c-8c69-49e6-aab4-e615ef90c3c8" name="변경" comment="" />
+      <created>1665539550900</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1665539550900</updated>
+      <workItem from="1665539553315" duration="15805000" />
+      <workItem from="1665637770771" duration="2119000" />
+      <workItem from="1666144062622" duration="10708000" />
+      <workItem from="1666749267849" duration="892000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
