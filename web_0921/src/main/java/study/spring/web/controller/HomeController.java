@@ -116,4 +116,9 @@ public class HomeController {
 
         return mv;
     }
+
+    @GetMapping("/login")
+    public String login() {
+        return "login";
+    }
 }
