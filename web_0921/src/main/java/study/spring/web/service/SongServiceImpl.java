@@ -94,23 +94,19 @@ public class SongServiceImpl implements SongService {
     @Override
     public List<Song> getList() {
         List<SongEntity> list = songRepository.findAll();
+        return makeSongList(list);
+    }
 
-        List<Song> result = new ArrayList<>();
-        for (SongEntity item : list) {
-            Song song = new Song(item.getTitle(),
-                    item.getComposer(), item.getYear());
-            song.setIdx(item.getIdx());
+    @Override
+    public List<Song> getList(String title) {
+        List<SongEntity> list = songRepository.findByTitle(title);
+        return makeSongList(list);
+    }
 
-            Artist artist = new Artist();
-            artist.setArtistIdx(item.getArtist().getArtistIdx());
-            artist.setName(item.getArtist().getName());
-            artist.setDebutYear(item.getArtist().getDebutYear());
-            song.setArtist(artist);
-
-            result.add(song);
-        }
-
-        return result;
+    @Override
+    public List<Song> getList(int year) {
+        List<SongEntity> list = songRepository.findByYear(year);
+        return makeSongList(list);
     }
 
     @Override
@@ -148,5 +144,24 @@ public class SongServiceImpl implements SongService {
     @Override
     public void delete(Long idx) {
         songRepository.deleteById(idx);
+    }
+
+    private List<Song> makeSongList(List<SongEntity> list) {
+
+        List<Song> result = new ArrayList<>();
+        for (SongEntity item : list) {
+            Song song = new Song(item.getTitle(),
+                    item.getComposer(), item.getYear());
+            song.setIdx(item.getIdx());
+
+            Artist artist = new Artist();
+            artist.setArtistIdx(item.getArtist().getArtistIdx());
+            artist.setName(item.getArtist().getName());
+            artist.setDebutYear(item.getArtist().getDebutYear());
+            song.setArtist(artist);
+
+            result.add(song);
+        }
+        return result;
     }
 }

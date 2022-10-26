@@ -32,4 +32,7 @@ public interface SongService {
 
     public void delete(Long idx);
 
+    public List<Song> getList(String title);
+
+    public List<Song> getList(int year);
 }

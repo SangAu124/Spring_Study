@@ -7,4 +7,6 @@ import java.util.List;
 
 public interface SongRepository extends JpaRepository<SongEntity, Long> {
     public List<SongEntity> findByTitle(String title);
+
+    public List<SongEntity> findByYear(int year);
 }
