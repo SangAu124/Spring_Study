@@ -115,8 +115,11 @@ public class SongServiceImpl implements SongService {
 
         if (optional.isPresent()) {
             SongEntity entity = optional.get();
-            Song song = new Song(entity.getTitle(),
-                    entity.getComposer(), entity.getYear());
+            Song song = new Song(
+                    entity.getTitle()
+                    , entity.getComposer()
+                    , entity.getYear()
+            );
 
             Artist artist = new Artist();
             artist.setArtistIdx(entity.getArtist().getArtistIdx());
